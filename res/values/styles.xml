@@ -1,0 +1,74 @@
+
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="@android:style/Theme.Light.NoTitleBar">
+    </style>
+
+    <style name="button_blue">
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">#60a89f</item>
+    </style>
+
+    <style name="button_textview">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">#aaa</item>
+    </style>
+
+    <style name="dlg_button_layout">
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+
+    <style name="button_textview_active" parent="@style/button_textview">
+        <item name="android:textColor">#60a89f</item>
+    </style>
+
+
+    <style name="dlg_title_bg">
+        <item name="android:layout_marginTop">6dp</item>
+    </style>
+
+    <style name="dlg_title">
+        <item name="android:layout_marginLeft">6dp</item>
+    </style>
+
+
+    <style name="text_shadow011w">
+        <item name="android:shadowColor">#ffffff</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    
+    <style name="text_shadow011lg">
+        <item name="android:shadowColor">#b5b5b5</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    
+    <style name="text_shadow021w">
+        <item name="android:shadowColor">#ffffff</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+
+    <style name="btn_normal">
+        <item name="android:shadowColor">#ffffff</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+</resources>
